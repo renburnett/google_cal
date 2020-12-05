@@ -1,0 +1,40 @@
+.container {
+  padding: 1rem;
+}
+.Calendar {
+  min-width: 100%;
+  font-family: sans-serif;
+  border-collapse: collapse;
+}
+.timezone-col {
+  height: 4rem;
+  width: 0.5rem;
+}
+.timezone-col-text {
+  font-weight: 400;
+  font-size: 12px;
+}
+.timezone-col-flex {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.timezone-col-p {
+  padding-top: 4rem;
+  padding-right: 2px;
+}
+.timezone-col-header {
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+
+.cell {
+  height: 1rem;
+  border: 1px solid lightgrey;
+}
+.last-cell {
+  border-left: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  height: 1rem;
+}

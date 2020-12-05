@@ -1,0 +1,30 @@
+.header {
+  font-weight: 400;
+  height: 4rem;
+  width: 4rem;
+  border-right: 1px solid lightgrey;
+}
+.header-last-cell {
+  font-weight: 400;
+  height: 4rem;
+  width: 4rem;
+  border-bottom: 1px solid lightgrey;
+}
+.header-text {
+  font-variant: small-caps;
+  display: flex;
+  flex-direction: column;
+}
+.header-big-num {
+  font-size: 1.5rem;
+}
+.num-div-container {
+  display: flex;
+  justify-content: center;
+}
+.num-div-highlight {
+  background-color: aquamarine;
+  border-radius: 100%;
+  width: 4.5rem;
+  height: 4.5rem;
+}
